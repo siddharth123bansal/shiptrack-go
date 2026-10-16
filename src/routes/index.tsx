@@ -316,7 +316,7 @@ function App() {
         <header className="sticky top-0 z-30 flex items-center justify-between bg-background/80 px-5 py-4 backdrop-blur-md">
           <Logo />
           <button onClick={() => setTab("alerts")} className="relative grid h-10 w-10 place-items-center rounded-full border bg-card">
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d={NAV[3].d} /></svg>
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d={NAV[3]!.d} /></svg>
             <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-primary" />
           </button>
         </header>
