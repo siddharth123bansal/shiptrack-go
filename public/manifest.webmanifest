@@ -1,0 +1,9 @@
+{
+  "name": "Manifest — Shipment Tracking",
+  "short_name": "Manifest",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f5f0",
+  "theme_color": "#c2500a",
+  "icons": [{ "src": "/favicon.ico", "sizes": "64x64", "type": "image/x-icon" }]
+}
